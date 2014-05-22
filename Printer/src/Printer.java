@@ -23,6 +23,9 @@ public class Printer implements Printable, ActionListener
 
 		/* Now we perform our rendering */
 		g.drawString("Hello world!", 100, 100);
+		g.drawString("Tabbed over text", 100, 200);
+		g.drawString("Second line of text", 100, 120);
+		g.drawString("Text after a space break of 50", 100, 170);
 
 		/* tell the caller that this page is part of the printed document */
 		return PAGE_EXISTS;
