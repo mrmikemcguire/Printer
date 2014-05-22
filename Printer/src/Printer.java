@@ -53,6 +53,7 @@ public class Printer implements Printable, ActionListener
 
 		UIManager.put("swing.boldMetal", Boolean.FALSE);
 		JFrame f = new JFrame("Printer");
+		f.setLocationRelativeTo(null);
 		f.addWindowListener(new WindowAdapter()
 			{
 				public void windowClosing(WindowEvent e)
